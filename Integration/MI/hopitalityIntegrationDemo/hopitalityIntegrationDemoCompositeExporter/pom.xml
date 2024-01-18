@@ -15,6 +15,7 @@
   <description>hopitalityIntegrationDemoCompositeExporter</description>
   <properties>
     <com.example.sequence_._retriveDataSequence>capp/EnterpriseServiceBus</com.example.sequence_._retriveDataSequence>
+    <com.example.dataservice_._ReservationDS>capp/DataServicesServer</com.example.dataservice_._ReservationDS>
     <com.example.task_._PMSTask>capp/EnterpriseServiceBus</com.example.task_._PMSTask>
     <com.example.resource_._walkinresMapper_outputSchema>capp/EnterpriseServiceBus</com.example.resource_._walkinresMapper_outputSchema>
     <com.example.resource_._walkinresMapper>capp/EnterpriseServiceBus</com.example.resource_._walkinresMapper>
@@ -65,6 +66,12 @@
       <artifactId>walkinschema</artifactId>
       <version>1.0.0</version>
       <type>zip</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.dataservice</groupId>
+      <artifactId>ReservationDS</artifactId>
+      <version>1.0.0</version>
+      <type>dbs</type>
     </dependency>
   </dependencies>
   <repositories>

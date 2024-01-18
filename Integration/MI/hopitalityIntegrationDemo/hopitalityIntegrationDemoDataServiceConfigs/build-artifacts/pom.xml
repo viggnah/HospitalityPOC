@@ -13,4 +13,7 @@
   <packaging>pom</packaging>
   <name>hopitalityIntegrationDemoDataServiceConfigs_module</name>
   <description>hopitalityIntegrationDemoDataServiceConfigs_module</description>
+  <modules>
+    <module>dataservice/ReservationDS</module>
+  </modules>
 </project>
