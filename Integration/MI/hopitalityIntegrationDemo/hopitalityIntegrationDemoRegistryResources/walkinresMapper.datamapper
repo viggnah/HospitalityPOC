@@ -98,7 +98,9 @@
               <properties key="id" value="http://wso2jsonschema.org/reservation/0/bookingDetails/specialRequests/0"/>
               <properties key="nullable" value="false"/>
               <properties key="unnamed" value="true"/>
-              <outNode/>
+              <outNode>
+                <outgoingLink inNode="//@output/@treeNode.0/@node.0/@node.9/@inNode"/>
+              </outNode>
               <inNode/>
             </node>
             <properties key="type" value="array"/>
@@ -206,7 +208,7 @@
           <properties key="id" value="http://wso2jsonschema.org/reservation/0/special_requests"/>
           <properties key="nullable" value="false"/>
           <outNode/>
-          <inNode/>
+          <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.1/@node.5/@node.0/@outNode/@outgoingLink.0"/>
         </node>
         <properties key="type" value="array"/>
         <properties key="id" value="http://wso2jsonschema.org/reservation"/>
