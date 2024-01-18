@@ -52,11 +52,11 @@ service /db on new http:Listener(8081) {
         };
     }
 
-   resource function get reservations() returns Walkin[]|error {
-        //TODO ad data range to retrive daily
+   resource function get reservation/[int reservationid] ()returns Walkin[]|error {
+        //TODO ad data range to retrive
         Walkin[] walkins = [];
         stream<Walkin, error?> resultStream = self.db->query(
-        `SELECT * FROM walkins`
+        `SELECT * FROM walkins where id=${reservationid}`
     );
         check from Walkin employee in resultStream
             do {
