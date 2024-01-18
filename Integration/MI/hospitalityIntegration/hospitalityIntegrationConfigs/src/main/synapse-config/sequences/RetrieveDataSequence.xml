@@ -1,30 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sequence name="RetrieveDataSequence" trace="disable" xmlns="http://ws.apache.org/ns/synapse">
-    <payloadFactory media-type="json">
-        <format>{
-  "reservation": [
-    {
-      "guest": {
-        "firstName": "Lee",
-        "lastName": "Brown",
-        "email_address": "leebrown@liquicom.com",
-        "phone": "(889) 592-3394"
-      },
-      "bookingDetails": {
-        "hotelCode": "CMFT",
-        "hotelName": "Koffee",
-        "checkinDate": "2023-09-10",
-        "checkoutDate": "2023-09-16",
-        "noRooms": 1,
-        "specialRequests": [
-          "Late check-out"
-        ]
-      }
-    }
-  ]
-}</format>
-        <args/>
-    </payloadFactory>
+    <call>
+        <endpoint>
+            <http method="get" uri-template="$SYSTEM:PMS_BE">
+                <suspendOnFailure>
+                    <initialDuration>-1</initialDuration>
+                    <progressionFactor>-1</progressionFactor>
+                    <maximumDuration>0</maximumDuration>
+                </suspendOnFailure>
+                <markForSuspension>
+                    <retriesBeforeSuspension>0</retriesBeforeSuspension>
+                </markForSuspension>
+            </http>
+        </endpoint>
+    </call>
+    <log level="full">
+        <property name="RESPOND" value="SUCCESS!!"/>
+        <property name="PMS message" value="PMS!!"/>
+    </log>
     <validate cache-schema="false" source="json-eval($)">
         <schema key="gov:custom/walkin-reservation-schema.json"/>
         <on-fail>
@@ -37,7 +30,7 @@
                 </args>
             </payloadFactory>
             <property name="HTTP_SC" scope="axis2" type="STRING" value="500"/>
-            <respond/>
+            <drop/>
         </on-fail>
     </validate>
     <datamapper config="gov:datamapper/WalkinMapping.dmc" description="Map to canonical" inputSchema="gov:datamapper/WalkinMapping_inputSchema.json" inputType="JSON" outputSchema="gov:datamapper/WalkinMapping_outputSchema.json" outputType="JSON" xsltStyleSheet="gov:datamapper/WalkinMapping_xsltStyleSheet.xml"/>
@@ -47,5 +40,8 @@
             <arg evaluator="json" expression="$.reservation"/>
         </args>
     </payloadFactory>
-    <respond/>
+    <log>
+        <property name="RESPOND" value="SUCCESS!!"/>
+    </log>
+    <drop/>
 </sequence>

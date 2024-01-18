@@ -16,10 +16,14 @@
   <properties>
     <com.example.sequence_._RetrieveDataSequence>capp/EnterpriseServiceBus</com.example.sequence_._RetrieveDataSequence>
     <com.example.task_._PMSTask>capp/EnterpriseServiceBus</com.example.task_._PMSTask>
+    <com.example.resource_._WalkinMapping_outputSchema>capp/EnterpriseServiceBus</com.example.resource_._WalkinMapping_outputSchema>
     <com.example.endpoint_._DBEndpoint>capp/EnterpriseServiceBus</com.example.endpoint_._DBEndpoint>
     <com.example.resource_._WalkinMapping>capp/EnterpriseServiceBus</com.example.resource_._WalkinMapping>
+    <com.example.resource_._WalkinMapping_xsltStyleSheet>capp/EnterpriseServiceBus</com.example.resource_._WalkinMapping_xsltStyleSheet>
+    <com.example.resource_._WalkinMapping_inputSchema>capp/EnterpriseServiceBus</com.example.resource_._WalkinMapping_inputSchema>
     <com.example.resource_._IntegResources>capp/EnterpriseIntegrator</com.example.resource_._IntegResources>
     <artifact.types>jaggery/app=zip,synapse/priority-executor=xml,synapse/inbound-endpoint=xml,service/rule=aar,synapse/message-store=xml,event/stream=json,service/meta=xml,datasource/datasource=xml,synapse/proxy-service=xml,bpel/workflow=zip,synapse/sequence=xml,synapse/endpointTemplate=xml,carbon/application=car,wso2/gadget=dar,synapse/api=xml,synapse/event-source=xml,synapse/message-processors=xml,event/receiver=xml,lib/dataservice/validator=jar,synapse/template=xml,synapse/endpoint=xml,lib/carbon/ui=jar,lib/synapse/mediator=jar,synapse/metadata=yaml,event/publisher=xml,synapse/local-entry=xml,synapse/task=xml,webapp/jaxws=war,registry/resource=zip,synapse/configuration=xml,service/axis2=aar,synapse/lib=zip,synapse/sequenceTemplate=xml,event/execution-plan=siddhiql,service/dataservice=dbs,web/application=war,lib/library/bundle=jar</artifact.types>
+    <com.example.resource_._walkin-reservation-canonical-schema_json>capp/EnterpriseIntegrator</com.example.resource_._walkin-reservation-canonical-schema_json>
   </properties>
   <dependencies>
     <dependency>
@@ -51,6 +55,30 @@
       <artifactId>PMSTask</artifactId>
       <version>1.0.0</version>
       <type>xml</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.resource</groupId>
+      <artifactId>WalkinMapping_inputSchema</artifactId>
+      <version>1.0.0</version>
+      <type>zip</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.resource</groupId>
+      <artifactId>WalkinMapping_outputSchema</artifactId>
+      <version>1.0.0</version>
+      <type>zip</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.resource</groupId>
+      <artifactId>WalkinMapping_xsltStyleSheet</artifactId>
+      <version>1.0.0</version>
+      <type>zip</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.resource</groupId>
+      <artifactId>walkin-reservation-canonical-schema_json</artifactId>
+      <version>1.0.0</version>
+      <type>zip</type>
     </dependency>
   </dependencies>
   <repositories>
