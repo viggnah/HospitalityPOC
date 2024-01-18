@@ -18,5 +18,6 @@
     <module>resource/walkinresMapper_inputSchema</module>
     <module>resource/walkinresMapper_outputSchema</module>
     <module>resource/walkinresMapper_xsltStyleSheet</module>
+    <module>resource/walkinschema</module>
   </modules>
 </project>

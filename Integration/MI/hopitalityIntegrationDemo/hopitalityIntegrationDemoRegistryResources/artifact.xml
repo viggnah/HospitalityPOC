@@ -31,4 +31,12 @@
             <properties/>
         </item>
     </artifact>
+    <artifact name="walkinschema" groupId="com.example.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseIntegrator">
+        <item>
+            <file>walkinschema.json</file>
+            <path>/_system/governance/reservation-schemas</path>
+            <mediaType>application/json</mediaType>
+            <properties/>
+        </item>
+    </artifact>
 </artifacts>
