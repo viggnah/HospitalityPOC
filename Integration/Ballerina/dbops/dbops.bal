@@ -17,13 +17,19 @@ type Walkin record {|
     string special_requests;
 |};
 
+configurable string host = "localhost";
+configurable string username = "root";
+configurable string password = "password123";
+configurable string database = "reservations";
+configurable int port = 3306;
+
 service /db on new http:Listener(8081) {
     private final mysql:Client db;
 
     function init() returns error? {
         // Initiate the mysql client at the start of the service. This will be used
         // throughout the lifetime of the service.
-        self.db = check new ("localhost", "root", "password123", "reservations", 3306);
+        self.db = check new (host, username, password, database, port);
     }
 
     resource function post reservations(Walkin[] walkinRecords) returns http:Created|error {
