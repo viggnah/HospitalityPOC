@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "reservation": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "first_name": {
+              "type": "string"
+            },
+            "last_name": {
+              "type": "string"
+            },
+            "email": {
+              "type": "string",
+              "pattern": "^\\S+@\\S+\\.\\S+$",
+              "format": "email"
+            },
+            "phone": {
+              "type": "string",
+              "pattern": "^(\\([0-9]{3}\\)) ?[0-9]{3}-[0-9]{4}$"
+            },
+            "hotel_code": {
+              "type": "string"
+            },
+            "hotel_name": {
+              "type": "string"
+            },
+            "checkin_date": {
+              "type": "string"
+            },
+            "checkout_date": {
+              "type": "string"
+            },
+            "no_rooms": {
+              "type": "integer"
+            },
+            "special_requests": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "first_name",
+            "last_name",
+            "email",
+            "phone",
+            "hotel_code",
+            "hotel_name",
+            "checkin_date",
+            "checkout_date",
+            "no_rooms",
+            "special_requests"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "reservation"
+  ]
+}

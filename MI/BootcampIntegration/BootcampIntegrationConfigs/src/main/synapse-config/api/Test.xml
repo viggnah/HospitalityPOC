@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/test" name="Test" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="GET">
+        <inSequence>
+            <sequence key="RetrieveDataSequence"/>
+        </inSequence>
+        <outSequence/>
+        <faultSequence/>
+    </resource>
+</api>
