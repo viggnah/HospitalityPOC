@@ -51,8 +51,8 @@ In the `Integration/Ballerina/dbops` directory, check configurations and run the
 ### 4. Integration Project
 Install Integration Studio and open the project located in `Integration/MI/hospitalityIntegrationDemo`. Set the necessary environment variables.
 
-![Set JDBC connector](./images/image-1)
-![Set Environment variables](./images/image-2)
+![Set JDBC connector](./images/image-1.png)
+![Set Environment variables](./images/image-2.png)
 
 ### 5. Running the Integration
 Within Integration Studio:
