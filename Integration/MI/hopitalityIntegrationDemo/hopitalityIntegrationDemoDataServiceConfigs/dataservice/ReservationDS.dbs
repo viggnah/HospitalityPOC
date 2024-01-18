@@ -23,4 +23,18 @@
     <description />
     <call-query href="InsertWalkins" />
   </resource>
+  <operation name="insertWalkInOp">
+    <call-query href="InsertWalkins">
+      <with-param name="FirstName" query-param="FirstName" />
+      <with-param name="LastName" query-param="LastName" />
+      <with-param name="Email" query-param="Email" />
+      <with-param name="Phone" query-param="Phone" />
+      <with-param name="HotelCode" query-param="HotelCode" />
+      <with-param name="HotelName" query-param="HotelName" />
+      <with-param name="CheckinDate" query-param="CheckinDate" />
+      <with-param name="CheckoutDate" query-param="CheckoutDate" />
+      <with-param name="NoRooms" query-param="NoRooms" />
+      <with-param name="SpecialRequests" query-param="SpecialRequests" />
+    </call-query>
+  </operation>
 </data>
