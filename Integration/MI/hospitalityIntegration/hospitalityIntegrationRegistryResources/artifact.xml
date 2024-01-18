@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><artifacts>
+    <artifact name="IntegResources" groupId="com.example.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseIntegrator">
+        <collection>
+            <directory>IntegResources</directory>
+            <path>/_system/governance/custom/IntegResources</path>
+            <properties/>
+        </collection>
+    </artifact>
+    <artifact name="WalkinMapping" groupId="com.example.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseIntegrator">
+        <collection>
+            <directory>WalkinMapping</directory>
+            <path>/_system/governance/custom/WalkinMapping</path>
+            <properties/>
+        </collection>
+    </artifact>
+</artifacts>

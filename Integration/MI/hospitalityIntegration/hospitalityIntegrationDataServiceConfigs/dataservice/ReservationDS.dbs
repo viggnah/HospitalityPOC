@@ -1,0 +1,26 @@
+<data name="ReservationDS" serviceNamespace="" serviceGroup="" transports="http https">
+  <description>Data service for REST API to access MySQL DB</description>
+  <query id="InsertWalkins" useConfig="Reservations">
+    <sql>insert into walkins (first_name, last_name, email, phone, hotel_code, hotel_name, checkin_date, checkout_date, no_rooms, special_requests) values(:FirstName, :LastName, :Email, :Phone, :HotelCode, :HotelName, :CheckinDate, :CheckoutDate, :NoRooms, :SpecialRequests)</sql>
+    <param name="FirstName" sqlType="STRING" />
+    <param name="LastName" sqlType="STRING" />
+    <param name="Email" sqlType="STRING" />
+    <param name="Phone" sqlType="STRING" />
+    <param name="HotelCode" sqlType="STRING" />
+    <param name="HotelName" sqlType="STRING" />
+    <param name="CheckinDate" sqlType="STRING" />
+    <param name="CheckoutDate" sqlType="STRING" />
+    <param name="NoRooms" sqlType="INTEGER" />
+    <param name="SpecialRequests" sqlType="STRING" />
+  </query>
+  <config id="Reservations">
+    <property name="driverClassName">com.mysql.cj.jdbc.Driver</property>
+    <property name="url">jdbc:mysql://localhost:3306/reservations</property>
+    <property name="username">root</property>
+    <property name="password">password123</property>
+  </config>
+  <resource method="POST" path="/dbreservations">
+    <description />
+    <call-query href="InsertWalkins" />
+  </resource>
+</data>
