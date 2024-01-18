@@ -44,5 +44,28 @@
     <log level="full">
         <property name="TRANSFORMED DATA" value="#3"/>
     </log>
+    <payloadFactory media-type="json">
+        <format>$1</format>
+        <args>
+            <arg evaluator="json" expression="$.reservation"/>
+        </args>
+    </payloadFactory>
+    <call>
+        <endpoint>
+            <http method="post" uri-template="http://localhost:8081/db/reservations">
+                <suspendOnFailure>
+                    <initialDuration>-1</initialDuration>
+                    <progressionFactor>-1</progressionFactor>
+                    <maximumDuration>0</maximumDuration>
+                </suspendOnFailure>
+                <markForSuspension>
+                    <retriesBeforeSuspension>0</retriesBeforeSuspension>
+                </markForSuspension>
+            </http>
+        </endpoint>
+    </call>
+    <log level="full">
+        <property name="BATCH INSERTED IDS" value="#4"/>
+    </log>
     <drop/>
 </sequence>
