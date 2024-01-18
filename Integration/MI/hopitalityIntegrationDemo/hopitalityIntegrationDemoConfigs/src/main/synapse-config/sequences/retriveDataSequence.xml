@@ -52,7 +52,7 @@
     </payloadFactory>
     <call>
         <endpoint>
-            <http method="post" uri-template="http://localhost:8081/db/reservations">
+            <http method="post" uri-template="$SYSTEM:BATCH_DB_BE">
                 <suspendOnFailure>
                     <initialDuration>-1</initialDuration>
                     <progressionFactor>-1</progressionFactor>
