@@ -1,0 +1,1804 @@
+{
+  "reservation": [
+    {
+      "guest": {
+        "firstName": "Lee",
+        "lastName": "Brown",
+        "email_address": "leebrown@liquicom.com",
+        "phone": "(889) 592-3394"
+      },
+      "bookingDetails": {
+        "hotelCode": "CMFT",
+        "hotelName": "Koffee",
+        "checkinDate": "2023-09-10",
+        "checkoutDate": "2023-09-16",
+        "noRooms": 1,
+        "specialRequests": [
+          "Late check-out"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Corina",
+        "lastName": "Cooley",
+        "email_address": "corinacooley@koffee.com",
+        "phone": "(913) 462-3506"
+      },
+      "bookingDetails": {
+        "hotelCode": "CMFT",
+        "hotelName": "Organica",
+        "checkinDate": "2023-09-07",
+        "checkoutDate": "2023-09-27",
+        "noRooms": 3,
+        "specialRequests": [
+          "Early check-in"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Antonia",
+        "lastName": "Maxwell",
+        "email_address": "antoniamaxwell@organica.com",
+        "phone": "(878) 510-2687"
+      },
+      "bookingDetails": {
+        "hotelCode": "CMFT",
+        "hotelName": "Geeky",
+        "checkinDate": "2023-09-12",
+        "checkoutDate": "2023-09-20",
+        "noRooms": 1,
+        "specialRequests": [
+          "Early check-in"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Vance",
+        "lastName": "Stein",
+        "email_address": "vancestein@geeky.com",
+        "phone": "(964) 567-3013"
+      },
+      "bookingDetails": {
+        "hotelCode": "MROT",
+        "hotelName": "Zensor",
+        "checkinDate": "2023-09-05",
+        "checkoutDate": "2023-09-17",
+        "noRooms": 2,
+        "specialRequests": [
+          "Late check-out"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Wendi",
+        "lastName": "Conley",
+        "email_address": "wendiconley@zensor.com",
+        "phone": "(964) 504-3363"
+      },
+      "bookingDetails": {
+        "hotelCode": "CSAR",
+        "hotelName": "Zeam",
+        "checkinDate": "2023-09-09",
+        "checkoutDate": "2023-09-19",
+        "noRooms": 2,
+        "specialRequests": [
+          "Late check-out"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Sadie",
+        "lastName": "Macias",
+        "email_address": "sadiemacias@zeam.com",
+        "phone": "(944) 414-3116"
+      },
+      "bookingDetails": {
+        "hotelCode": "CMFT",
+        "hotelName": "Pheast",
+        "checkinDate": "2023-09-04",
+        "checkoutDate": "2023-09-20",
+        "noRooms": 2,
+        "specialRequests": [
+          "Late check-out"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Mayer",
+        "lastName": "Lester",
+        "email_address": "mayerlester@pheast.com",
+        "phone": "(805) 450-2762"
+      },
+      "bookingDetails": {
+        "hotelCode": "MROT",
+        "hotelName": "Bezal",
+        "checkinDate": "2023-09-04",
+        "checkoutDate": "2023-09-25",
+        "noRooms": 2,
+        "specialRequests": [
+          "Early check-in"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Hogan",
+        "lastName": "Oneill",
+        "email_address": "hoganoneill@bezal.com",
+        "phone": "(821) 551-2130"
+      },
+      "bookingDetails": {
+        "hotelCode": "CMFT",
+        "hotelName": "Centregy",
+        "checkinDate": "2023-09-03",
+        "checkoutDate": "2023-09-18",
+        "noRooms": 1,
+        "specialRequests": [
+          "Late check-out"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Kaitlin",
+        "lastName": "Lee",
+        "email_address": "kaitlinlee@centregy.com",
+        "phone": "(975) 452-2032"
+      },
+      "bookingDetails": {
+        "hotelCode": "CMFT",
+        "hotelName": "Quinex",
+        "checkinDate": "2023-09-03",
+        "checkoutDate": "2023-09-24",
+        "noRooms": 2,
+        "specialRequests": [
+          "Late check-out"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Jeannie",
+        "lastName": "Salazar",
+        "email_address": "jeanniesalazar@quinex.com",
+        "phone": "(828) 434-2323"
+      },
+      "bookingDetails": {
+        "hotelCode": "CMFT",
+        "hotelName": "Phuel",
+        "checkinDate": "2023-09-12",
+        "checkoutDate": "2023-09-18",
+        "noRooms": 1,
+        "specialRequests": [
+          "Early check-in"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Susanna",
+        "lastName": "Mcfarland",
+        "email_address": "susannamcfarland@phuel.com",
+        "phone": "(957) 465-2694"
+      },
+      "bookingDetails": {
+        "hotelCode": "CSAR",
+        "hotelName": "Quintity",
+        "checkinDate": "2023-09-04",
+        "checkoutDate": "2023-09-19",
+        "noRooms": 2,
+        "specialRequests": [
+          "Late check-out"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Alyson",
+        "lastName": "Jenkins",
+        "email_address": "alysonjenkins@quintity.com",
+        "phone": "(992) 580-2057"
+      },
+      "bookingDetails": {
+        "hotelCode": "HTLN",
+        "hotelName": "Rockyard",
+        "checkinDate": "2023-09-08",
+        "checkoutDate": "2023-09-18",
+        "noRooms": 3,
+        "specialRequests": [
+          "Early check-in"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "James",
+        "lastName": "Kirby",
+        "email_address": "jameskirby@rockyard.com",
+        "phone": "(888) 442-2713"
+      },
+      "bookingDetails": {
+        "hotelCode": "MROT",
+        "hotelName": "Comvex",
+        "checkinDate": "2023-09-08",
+        "checkoutDate": "2023-09-25",
+        "noRooms": 2,
+        "specialRequests": [
+          "Late check-out"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Lou",
+        "lastName": "House",
+        "email_address": "louhouse@comvex.com",
+        "phone": "(911) 523-3517"
+      },
+      "bookingDetails": {
+        "hotelCode": "CMFT",
+        "hotelName": "Bugsall",
+        "checkinDate": "2023-09-10",
+        "checkoutDate": "2023-09-16",
+        "noRooms": 3,
+        "specialRequests": [
+          "Late check-out"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Thompson",
+        "lastName": "Sharpe",
+        "email_address": "thompsonsharpe@bugsall.com",
+        "phone": "(827) 522-2557"
+      },
+      "bookingDetails": {
+        "hotelCode": "HTLN",
+        "hotelName": "Beadzza",
+        "checkinDate": "2023-09-05",
+        "checkoutDate": "2023-09-27",
+        "noRooms": 1,
+        "specialRequests": [
+          "Late check-out"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Randall",
+        "lastName": "Wade",
+        "email_address": "randallwade@beadzza.com",
+        "phone": "(906) 413-2536"
+      },
+      "bookingDetails": {
+        "hotelCode": "CMFT",
+        "hotelName": "Isologia",
+        "checkinDate": "2023-09-07",
+        "checkoutDate": "2023-09-15",
+        "noRooms": 1,
+        "specialRequests": [
+          "Early check-in"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Jannie",
+        "lastName": "Sanchez",
+        "email_address": "janniesanchez@isologia.com",
+        "phone": "(940) 490-2789"
+      },
+      "bookingDetails": {
+        "hotelCode": "CMFT",
+        "hotelName": "Vortexaco",
+        "checkinDate": "2023-09-09",
+        "checkoutDate": "2023-09-25",
+        "noRooms": 3,
+        "specialRequests": [
+          "Late check-out"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Joy",
+        "lastName": "Ware",
+        "email_address": "joyware@vortexaco.com",
+        "phone": "(898) 440-3515"
+      },
+      "bookingDetails": {
+        "hotelCode": "CMFT",
+        "hotelName": "Idetica",
+        "checkinDate": "2023-09-12",
+        "checkoutDate": "2023-09-20",
+        "noRooms": 2,
+        "specialRequests": [
+          "Early check-in"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Murray",
+        "lastName": "Foley",
+        "email_address": "murrayfoley@idetica.com",
+        "phone": "(869) 527-3108"
+      },
+      "bookingDetails": {
+        "hotelCode": "CSAR",
+        "hotelName": "Dognost",
+        "checkinDate": "2023-09-10",
+        "checkoutDate": "2023-09-17",
+        "noRooms": 1,
+        "specialRequests": [
+          "Early check-in"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Greene",
+        "lastName": "Fuller",
+        "email_address": "greenefuller@dognost.com",
+        "phone": "(879) 491-3352"
+      },
+      "bookingDetails": {
+        "hotelCode": "MROT",
+        "hotelName": "Amtas",
+        "checkinDate": "2023-09-02",
+        "checkoutDate": "2023-09-27",
+        "noRooms": 2,
+        "specialRequests": [
+          "Late check-out"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Davenport",
+        "lastName": "Casey",
+        "email_address": "davenportcasey@amtas.com",
+        "phone": "(918) 450-2143"
+      },
+      "bookingDetails": {
+        "hotelCode": "CMFT",
+        "hotelName": "Zanity",
+        "checkinDate": "2023-09-11",
+        "checkoutDate": "2023-09-23",
+        "noRooms": 3,
+        "specialRequests": [
+          "Early check-in"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Burgess",
+        "lastName": "Patel",
+        "email_address": "burgesspatel@zanity.com",
+        "phone": "(871) 433-2913"
+      },
+      "bookingDetails": {
+        "hotelCode": "CMFT",
+        "hotelName": "Isoswitch",
+        "checkinDate": "2023-09-13",
+        "checkoutDate": "2023-09-20",
+        "noRooms": 2,
+        "specialRequests": [
+          "Early check-in"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Kennedy",
+        "lastName": "Navarro",
+        "email_address": "kennedynavarro@isoswitch.com",
+        "phone": "(881) 403-2336"
+      },
+      "bookingDetails": {
+        "hotelCode": "HTLN",
+        "hotelName": "Rodeocean",
+        "checkinDate": "2023-09-02",
+        "checkoutDate": "2023-09-15",
+        "noRooms": 3,
+        "specialRequests": [
+          "Early check-in"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Deborah",
+        "lastName": "Black",
+        "email_address": "deborahblack@rodeocean.com",
+        "phone": "(981) 492-3087"
+      },
+      "bookingDetails": {
+        "hotelCode": "CSAR",
+        "hotelName": "Comtext",
+        "checkinDate": "2023-09-03",
+        "checkoutDate": "2023-09-16",
+        "noRooms": 1,
+        "specialRequests": [
+          "Late check-out"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Chen",
+        "lastName": "Cole",
+        "email_address": "chencole@comtext.com",
+        "phone": "(960) 493-2961"
+      },
+      "bookingDetails": {
+        "hotelCode": "CSAR",
+        "hotelName": "Terragen",
+        "checkinDate": "2023-09-03",
+        "checkoutDate": "2023-09-22",
+        "noRooms": 3,
+        "specialRequests": [
+          "Late check-out"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Judith",
+        "lastName": "Bruce",
+        "email_address": "judithbruce@terragen.com",
+        "phone": "(837) 460-2207"
+      },
+      "bookingDetails": {
+        "hotelCode": "HTLN",
+        "hotelName": "Gonkle",
+        "checkinDate": "2023-09-08",
+        "checkoutDate": "2023-09-28",
+        "noRooms": 3,
+        "specialRequests": [
+          "Late check-out"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Stanley",
+        "lastName": "Luna",
+        "email_address": "stanleyluna@gonkle.com",
+        "phone": "(997) 474-3654"
+      },
+      "bookingDetails": {
+        "hotelCode": "CMFT",
+        "hotelName": "Anarco",
+        "checkinDate": "2023-09-13",
+        "checkoutDate": "2023-09-21",
+        "noRooms": 3,
+        "specialRequests": [
+          "Late check-out"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Janie",
+        "lastName": "Morales",
+        "email_address": "janiemorales@anarco.com",
+        "phone": "(981) 417-2669"
+      },
+      "bookingDetails": {
+        "hotelCode": "MROT",
+        "hotelName": "Quilch",
+        "checkinDate": "2023-09-02",
+        "checkoutDate": "2023-09-15",
+        "noRooms": 2,
+        "specialRequests": [
+          "Late check-out"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Roberson",
+        "lastName": "Sherman",
+        "email_address": "robersonsherman@quilch.com",
+        "phone": "(951) 542-3121"
+      },
+      "bookingDetails": {
+        "hotelCode": "HTLN",
+        "hotelName": "Gazak",
+        "checkinDate": "2023-09-03",
+        "checkoutDate": "2023-09-23",
+        "noRooms": 1,
+        "specialRequests": [
+          "Early check-in"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Dawn",
+        "lastName": "Tucker",
+        "email_address": "dawntucker@gazak.com",
+        "phone": "(827) 430-2555"
+      },
+      "bookingDetails": {
+        "hotelCode": "CSAR",
+        "hotelName": "Parcoe",
+        "checkinDate": "2023-09-12",
+        "checkoutDate": "2023-09-16",
+        "noRooms": 3,
+        "specialRequests": [
+          "Late check-out"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "French",
+        "lastName": "Austin",
+        "email_address": "frenchaustin@parcoe.com",
+        "phone": "(996) 541-3264"
+      },
+      "bookingDetails": {
+        "hotelCode": "CSAR",
+        "hotelName": "Earwax",
+        "checkinDate": "2023-09-11",
+        "checkoutDate": "2023-09-21",
+        "noRooms": 1,
+        "specialRequests": [
+          "Late check-out"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Mack",
+        "lastName": "Spears",
+        "email_address": "mackspears@earwax.com",
+        "phone": "(914) 441-2760"
+      },
+      "bookingDetails": {
+        "hotelCode": "MROT",
+        "hotelName": "Earthpure",
+        "checkinDate": "2023-09-10",
+        "checkoutDate": "2023-09-28",
+        "noRooms": 3,
+        "specialRequests": [
+          "Early check-in"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Paula",
+        "lastName": "Bauer",
+        "email_address": "paulabauer@earthpure.com",
+        "phone": "(855) 514-3226"
+      },
+      "bookingDetails": {
+        "hotelCode": "MROT",
+        "hotelName": "Crustatia",
+        "checkinDate": "2023-09-06",
+        "checkoutDate": "2023-09-16",
+        "noRooms": 3,
+        "specialRequests": [
+          "Early check-in"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Angelique",
+        "lastName": "Rios",
+        "email_address": "angeliquerios@crustatia.com",
+        "phone": "(959) 513-3159"
+      },
+      "bookingDetails": {
+        "hotelCode": "HTLN",
+        "hotelName": "Kinetica",
+        "checkinDate": "2023-09-03",
+        "checkoutDate": "2023-09-23",
+        "noRooms": 1,
+        "specialRequests": [
+          "Early check-in"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Bean",
+        "lastName": "Hendrix",
+        "email_address": "beanhendrix@kinetica.com",
+        "phone": "(927) 550-3331"
+      },
+      "bookingDetails": {
+        "hotelCode": "HTLN",
+        "hotelName": "Xoggle",
+        "checkinDate": "2023-09-10",
+        "checkoutDate": "2023-09-21",
+        "noRooms": 2,
+        "specialRequests": [
+          "Early check-in"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Carole",
+        "lastName": "Allison",
+        "email_address": "caroleallison@xoggle.com",
+        "phone": "(960) 411-2622"
+      },
+      "bookingDetails": {
+        "hotelCode": "CMFT",
+        "hotelName": "Mangelica",
+        "checkinDate": "2023-09-09",
+        "checkoutDate": "2023-09-20",
+        "noRooms": 1,
+        "specialRequests": [
+          "Late check-out"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Hawkins",
+        "lastName": "Christensen",
+        "email_address": "hawkinschristensen@mangelica.com",
+        "phone": "(939) 476-2403"
+      },
+      "bookingDetails": {
+        "hotelCode": "CSAR",
+        "hotelName": "Golistic",
+        "checkinDate": "2023-09-08",
+        "checkoutDate": "2023-09-23",
+        "noRooms": 3,
+        "specialRequests": [
+          "Late check-out"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Leonard",
+        "lastName": "Saunders",
+        "email_address": "leonardsaunders@golistic.com",
+        "phone": "(804) 583-2217"
+      },
+      "bookingDetails": {
+        "hotelCode": "HTLN",
+        "hotelName": "Digitalus",
+        "checkinDate": "2023-09-09",
+        "checkoutDate": "2023-09-17",
+        "noRooms": 2,
+        "specialRequests": [
+          "Early check-in"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Joseph",
+        "lastName": "Fisher",
+        "email_address": "josephfisher@digitalus.com",
+        "phone": "(963) 477-2663"
+      },
+      "bookingDetails": {
+        "hotelCode": "CSAR",
+        "hotelName": "Bostonic",
+        "checkinDate": "2023-09-03",
+        "checkoutDate": "2023-09-21",
+        "noRooms": 1,
+        "specialRequests": [
+          "Early check-in"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Adams",
+        "lastName": "Richards",
+        "email_address": "adamsrichards@bostonic.com",
+        "phone": "(836) 593-3348"
+      },
+      "bookingDetails": {
+        "hotelCode": "HTLN",
+        "hotelName": "Kongle",
+        "checkinDate": "2023-09-07",
+        "checkoutDate": "2023-09-28",
+        "noRooms": 2,
+        "specialRequests": [
+          "Early check-in"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Jodie",
+        "lastName": "Vaughan",
+        "email_address": "jodievaughan@kongle.com",
+        "phone": "(957) 465-2851"
+      },
+      "bookingDetails": {
+        "hotelCode": "MROT",
+        "hotelName": "Dancity",
+        "checkinDate": "2023-09-11",
+        "checkoutDate": "2023-09-22",
+        "noRooms": 3,
+        "specialRequests": [
+          "Early check-in"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Vega",
+        "lastName": "Clements",
+        "email_address": "vegaclements@dancity.com",
+        "phone": "(890) 567-3126"
+      },
+      "bookingDetails": {
+        "hotelCode": "HTLN",
+        "hotelName": "Ontality",
+        "checkinDate": "2023-09-04",
+        "checkoutDate": "2023-09-28",
+        "noRooms": 2,
+        "specialRequests": [
+          "Early check-in"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Miranda",
+        "lastName": "Meadows",
+        "email_address": "mirandameadows@ontality.com",
+        "phone": "(837) 593-2272"
+      },
+      "bookingDetails": {
+        "hotelCode": "CMFT",
+        "hotelName": "Zounds",
+        "checkinDate": "2023-09-09",
+        "checkoutDate": "2023-09-25",
+        "noRooms": 1,
+        "specialRequests": [
+          "Early check-in"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Ericka",
+        "lastName": "Mcpherson",
+        "email_address": "erickamcpherson@zounds.com",
+        "phone": "(901) 460-2295"
+      },
+      "bookingDetails": {
+        "hotelCode": "MROT",
+        "hotelName": "Magnina",
+        "checkinDate": "2023-09-02",
+        "checkoutDate": "2023-09-28",
+        "noRooms": 1,
+        "specialRequests": [
+          "Late check-out"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Bowman",
+        "lastName": "Pearson",
+        "email_address": "bowmanpearson@magnina.com",
+        "phone": "(810) 592-3885"
+      },
+      "bookingDetails": {
+        "hotelCode": "HTLN",
+        "hotelName": "Inquala",
+        "checkinDate": "2023-09-04",
+        "checkoutDate": "2023-09-18",
+        "noRooms": 2,
+        "specialRequests": [
+          "Early check-in"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Ida",
+        "lastName": "Allen",
+        "email_address": "idaallen@inquala.com",
+        "phone": "(896) 442-3437"
+      },
+      "bookingDetails": {
+        "hotelCode": "MROT",
+        "hotelName": "Enquility",
+        "checkinDate": "2023-09-07",
+        "checkoutDate": "2023-09-22",
+        "noRooms": 1,
+        "specialRequests": [
+          "Late check-out"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Betsy",
+        "lastName": "Ellison",
+        "email_address": "betsyellison@enquility.com",
+        "phone": "(815) 513-2452"
+      },
+      "bookingDetails": {
+        "hotelCode": "HTLN",
+        "hotelName": "Qiao",
+        "checkinDate": "2023-09-09",
+        "checkoutDate": "2023-09-19",
+        "noRooms": 2,
+        "specialRequests": [
+          "Late check-out"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Caroline",
+        "lastName": "Velasquez",
+        "email_address": "carolinevelasquez@qiao.com",
+        "phone": "(948) 540-3239"
+      },
+      "bookingDetails": {
+        "hotelCode": "MROT",
+        "hotelName": "Zyple",
+        "checkinDate": "2023-09-09",
+        "checkoutDate": "2023-09-19",
+        "noRooms": 3,
+        "specialRequests": [
+          "Late check-out"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Franks",
+        "lastName": "Butler",
+        "email_address": "franksbutler@zyple.com",
+        "phone": "(964) 516-2475"
+      },
+      "bookingDetails": {
+        "hotelCode": "CMFT",
+        "hotelName": "Maineland",
+        "checkinDate": "2023-09-09",
+        "checkoutDate": "2023-09-23",
+        "noRooms": 1,
+        "specialRequests": [
+          "Early check-in"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Jean",
+        "lastName": "Chang",
+        "email_address": "jeanchang@maineland.com",
+        "phone": "(844) 464-3583"
+      },
+      "bookingDetails": {
+        "hotelCode": "CMFT",
+        "hotelName": "Neurocell",
+        "checkinDate": "2023-09-07",
+        "checkoutDate": "2023-09-15",
+        "noRooms": 1,
+        "specialRequests": [
+          "Early check-in"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Cole",
+        "lastName": "Finley",
+        "email_address": "colefinley@neurocell.com",
+        "phone": "(854) 479-2436"
+      },
+      "bookingDetails": {
+        "hotelCode": "HTLN",
+        "hotelName": "Overfork",
+        "checkinDate": "2023-09-07",
+        "checkoutDate": "2023-09-17",
+        "noRooms": 1,
+        "specialRequests": [
+          "Early check-in"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Dianne",
+        "lastName": "Kramer",
+        "email_address": "diannekramer@overfork.com",
+        "phone": "(890) 453-2462"
+      },
+      "bookingDetails": {
+        "hotelCode": "CSAR",
+        "hotelName": "Electonic",
+        "checkinDate": "2023-09-11",
+        "checkoutDate": "2023-09-19",
+        "noRooms": 2,
+        "specialRequests": [
+          "Early check-in"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Clayton",
+        "lastName": "White",
+        "email_address": "claytonwhite@electonic.com",
+        "phone": "(854) 531-2145"
+      },
+      "bookingDetails": {
+        "hotelCode": "CMFT",
+        "hotelName": "Imkan",
+        "checkinDate": "2023-09-13",
+        "checkoutDate": "2023-09-22",
+        "noRooms": 1,
+        "specialRequests": [
+          "Late check-out"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Flynn",
+        "lastName": "Burks",
+        "email_address": "flynnburks@imkan.com",
+        "phone": "(854) 586-2256"
+      },
+      "bookingDetails": {
+        "hotelCode": "CMFT",
+        "hotelName": "Quantalia",
+        "checkinDate": "2023-09-05",
+        "checkoutDate": "2023-09-22",
+        "noRooms": 2,
+        "specialRequests": [
+          "Late check-out"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Moran",
+        "lastName": "Sykes",
+        "email_address": "moransykes@quantalia.com",
+        "phone": "(961) 414-3069"
+      },
+      "bookingDetails": {
+        "hotelCode": "CMFT",
+        "hotelName": "Combot",
+        "checkinDate": "2023-09-11",
+        "checkoutDate": "2023-09-20",
+        "noRooms": 3,
+        "specialRequests": [
+          "Late check-out"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Carlson",
+        "lastName": "Russo",
+        "email_address": "carlsonrusso@combot.com",
+        "phone": "(939) 528-2146"
+      },
+      "bookingDetails": {
+        "hotelCode": "CSAR",
+        "hotelName": "Motovate",
+        "checkinDate": "2023-09-10",
+        "checkoutDate": "2023-09-24",
+        "noRooms": 2,
+        "specialRequests": [
+          "Early check-in"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Shelia",
+        "lastName": "Neal",
+        "email_address": "shelianeal@motovate.com",
+        "phone": "(956) 437-3676"
+      },
+      "bookingDetails": {
+        "hotelCode": "MROT",
+        "hotelName": "Remotion",
+        "checkinDate": "2023-09-07",
+        "checkoutDate": "2023-09-25",
+        "noRooms": 3,
+        "specialRequests": [
+          "Early check-in"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Watkins",
+        "lastName": "Holmes",
+        "email_address": "watkinsholmes@remotion.com",
+        "phone": "(909) 572-3296"
+      },
+      "bookingDetails": {
+        "hotelCode": "HTLN",
+        "hotelName": "Netropic",
+        "checkinDate": "2023-09-12",
+        "checkoutDate": "2023-09-15",
+        "noRooms": 1,
+        "specialRequests": [
+          "Late check-out"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Gregory",
+        "lastName": "Kennedy",
+        "email_address": "gregorykennedy@netropic.com",
+        "phone": "(952) 532-2392"
+      },
+      "bookingDetails": {
+        "hotelCode": "MROT",
+        "hotelName": "Flexigen",
+        "checkinDate": "2023-09-05",
+        "checkoutDate": "2023-09-24",
+        "noRooms": 1,
+        "specialRequests": [
+          "Early check-in"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Silva",
+        "lastName": "Fleming",
+        "email_address": "silvafleming@flexigen.com",
+        "phone": "(831) 401-3042"
+      },
+      "bookingDetails": {
+        "hotelCode": "MROT",
+        "hotelName": "Pearlessa",
+        "checkinDate": "2023-09-13",
+        "checkoutDate": "2023-09-17",
+        "noRooms": 1,
+        "specialRequests": [
+          "Late check-out"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Frazier",
+        "lastName": "Edwards",
+        "email_address": "frazieredwards@pearlessa.com",
+        "phone": "(960) 426-2718"
+      },
+      "bookingDetails": {
+        "hotelCode": "MROT",
+        "hotelName": "Katakana",
+        "checkinDate": "2023-09-10",
+        "checkoutDate": "2023-09-17",
+        "noRooms": 1,
+        "specialRequests": [
+          "Late check-out"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Hooper",
+        "lastName": "Byers",
+        "email_address": "hooperbyers@katakana.com",
+        "phone": "(905) 504-2410"
+      },
+      "bookingDetails": {
+        "hotelCode": "HTLN",
+        "hotelName": "Sportan",
+        "checkinDate": "2023-09-02",
+        "checkoutDate": "2023-09-21",
+        "noRooms": 1,
+        "specialRequests": [
+          "Late check-out"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Iva",
+        "lastName": "Case",
+        "email_address": "ivacase@sportan.com",
+        "phone": "(849) 572-2184"
+      },
+      "bookingDetails": {
+        "hotelCode": "HTLN",
+        "hotelName": "Uni",
+        "checkinDate": "2023-09-03",
+        "checkoutDate": "2023-09-22",
+        "noRooms": 2,
+        "specialRequests": [
+          "Early check-in"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "June",
+        "lastName": "Gordon",
+        "email_address": "junegordon@uni.com",
+        "phone": "(919) 419-3812"
+      },
+      "bookingDetails": {
+        "hotelCode": "MROT",
+        "hotelName": "Verbus",
+        "checkinDate": "2023-09-13",
+        "checkoutDate": "2023-09-28",
+        "noRooms": 3,
+        "specialRequests": [
+          "Late check-out"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Chris",
+        "lastName": "Riley",
+        "email_address": "chrisriley@verbus.com",
+        "phone": "(947) 597-2721"
+      },
+      "bookingDetails": {
+        "hotelCode": "MROT",
+        "hotelName": "Talkalot",
+        "checkinDate": "2023-09-10",
+        "checkoutDate": "2023-09-28",
+        "noRooms": 3,
+        "specialRequests": [
+          "Early check-in"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Marsh",
+        "lastName": "Mills",
+        "email_address": "marshmills@talkalot.com",
+        "phone": "(823) 430-2604"
+      },
+      "bookingDetails": {
+        "hotelCode": "HTLN",
+        "hotelName": "Chorizon",
+        "checkinDate": "2023-09-10",
+        "checkoutDate": "2023-09-28",
+        "noRooms": 2,
+        "specialRequests": [
+          "Early check-in"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Elma",
+        "lastName": "Cardenas",
+        "email_address": "elmacardenas@chorizon.com",
+        "phone": "(843) 438-3345"
+      },
+      "bookingDetails": {
+        "hotelCode": "CMFT",
+        "hotelName": "Kindaloo",
+        "checkinDate": "2023-09-09",
+        "checkoutDate": "2023-09-25",
+        "noRooms": 1,
+        "specialRequests": [
+          "Early check-in"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Barrett",
+        "lastName": "Stanley",
+        "email_address": "barrettstanley@kindaloo.com",
+        "phone": "(834) 481-2270"
+      },
+      "bookingDetails": {
+        "hotelCode": "CSAR",
+        "hotelName": "Comtours",
+        "checkinDate": "2023-09-02",
+        "checkoutDate": "2023-09-19",
+        "noRooms": 1,
+        "specialRequests": [
+          "Early check-in"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Santiago",
+        "lastName": "Dudley",
+        "email_address": "santiagodudley@comtours.com",
+        "phone": "(881) 573-2798"
+      },
+      "bookingDetails": {
+        "hotelCode": "MROT",
+        "hotelName": "Cowtown",
+        "checkinDate": "2023-09-07",
+        "checkoutDate": "2023-09-15",
+        "noRooms": 1,
+        "specialRequests": [
+          "Late check-out"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Fuentes",
+        "lastName": "Joyner",
+        "email_address": "fuentesjoyner@cowtown.com",
+        "phone": "(977) 444-2913"
+      },
+      "bookingDetails": {
+        "hotelCode": "HTLN",
+        "hotelName": "Plasto",
+        "checkinDate": "2023-09-02",
+        "checkoutDate": "2023-09-16",
+        "noRooms": 3,
+        "specialRequests": [
+          "Late check-out"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Sellers",
+        "lastName": "Cotton",
+        "email_address": "sellerscotton@plasto.com",
+        "phone": "(942) 560-2203"
+      },
+      "bookingDetails": {
+        "hotelCode": "CMFT",
+        "hotelName": "Zorromop",
+        "checkinDate": "2023-09-13",
+        "checkoutDate": "2023-09-25",
+        "noRooms": 2,
+        "specialRequests": [
+          "Late check-out"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Kaye",
+        "lastName": "Thompson",
+        "email_address": "kayethompson@zorromop.com",
+        "phone": "(860) 543-3321"
+      },
+      "bookingDetails": {
+        "hotelCode": "CMFT",
+        "hotelName": "Geekosis",
+        "checkinDate": "2023-09-08",
+        "checkoutDate": "2023-09-26",
+        "noRooms": 1,
+        "specialRequests": [
+          "Early check-in"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Beck",
+        "lastName": "Reyes",
+        "email_address": "beckreyes@geekosis.com",
+        "phone": "(805) 592-3220"
+      },
+      "bookingDetails": {
+        "hotelCode": "HTLN",
+        "hotelName": "Eweville",
+        "checkinDate": "2023-09-02",
+        "checkoutDate": "2023-09-23",
+        "noRooms": 1,
+        "specialRequests": [
+          "Late check-out"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Lolita",
+        "lastName": "Cherry",
+        "email_address": "lolitacherry@eweville.com",
+        "phone": "(877) 488-3490"
+      },
+      "bookingDetails": {
+        "hotelCode": "CSAR",
+        "hotelName": "Elpro",
+        "checkinDate": "2023-09-04",
+        "checkoutDate": "2023-09-27",
+        "noRooms": 1,
+        "specialRequests": [
+          "Late check-out"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Kate",
+        "lastName": "Mccullough",
+        "email_address": "katemccullough@elpro.com",
+        "phone": "(993) 463-2763"
+      },
+      "bookingDetails": {
+        "hotelCode": "CMFT",
+        "hotelName": "Optique",
+        "checkinDate": "2023-09-12",
+        "checkoutDate": "2023-09-22",
+        "noRooms": 1,
+        "specialRequests": [
+          "Early check-in"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Mcneil",
+        "lastName": "Knight",
+        "email_address": "mcneilknight@optique.com",
+        "phone": "(926) 483-3743"
+      },
+      "bookingDetails": {
+        "hotelCode": "CSAR",
+        "hotelName": "Oatfarm",
+        "checkinDate": "2023-09-07",
+        "checkoutDate": "2023-09-27",
+        "noRooms": 1,
+        "specialRequests": [
+          "Late check-out"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Booth",
+        "lastName": "Barr",
+        "email_address": "boothbarr@oatfarm.com",
+        "phone": "(806) 426-3064"
+      },
+      "bookingDetails": {
+        "hotelCode": "HTLN",
+        "hotelName": "Deminimum",
+        "checkinDate": "2023-09-02",
+        "checkoutDate": "2023-09-27",
+        "noRooms": 3,
+        "specialRequests": [
+          "Early check-in"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Hall",
+        "lastName": "Gaines",
+        "email_address": "hallgaines@deminimum.com",
+        "phone": "(994) 407-2588"
+      },
+      "bookingDetails": {
+        "hotelCode": "CMFT",
+        "hotelName": "Daido",
+        "checkinDate": "2023-09-08",
+        "checkoutDate": "2023-09-23",
+        "noRooms": 1,
+        "specialRequests": [
+          "Late check-out"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Nikki",
+        "lastName": "Parks",
+        "email_address": "nikkiparks@daido.com",
+        "phone": "(816) 403-2586"
+      },
+      "bookingDetails": {
+        "hotelCode": "CMFT",
+        "hotelName": "Marqet",
+        "checkinDate": "2023-09-06",
+        "checkoutDate": "2023-09-25",
+        "noRooms": 2,
+        "specialRequests": [
+          "Late check-out"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Staci",
+        "lastName": "Nixon",
+        "email_address": "stacinixon@marqet.com",
+        "phone": "(800) 513-3405"
+      },
+      "bookingDetails": {
+        "hotelCode": "CSAR",
+        "hotelName": "Emtrac",
+        "checkinDate": "2023-09-13",
+        "checkoutDate": "2023-09-23",
+        "noRooms": 3,
+        "specialRequests": [
+          "Early check-in"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Tyson",
+        "lastName": "Collins",
+        "email_address": "tysoncollins@emtrac.com",
+        "phone": "(874) 457-2573"
+      },
+      "bookingDetails": {
+        "hotelCode": "MROT",
+        "hotelName": "Corecom",
+        "checkinDate": "2023-09-05",
+        "checkoutDate": "2023-09-26",
+        "noRooms": 1,
+        "specialRequests": [
+          "Early check-in"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Hilda",
+        "lastName": "Rhodes",
+        "email_address": "hildarhodes@corecom.com",
+        "phone": "(969) 598-3735"
+      },
+      "bookingDetails": {
+        "hotelCode": "CSAR",
+        "hotelName": "Locazone",
+        "checkinDate": "2023-09-02",
+        "checkoutDate": "2023-09-27",
+        "noRooms": 3,
+        "specialRequests": [
+          "Late check-out"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Bonner",
+        "lastName": "Hardy",
+        "email_address": "bonnerhardy@locazone.com",
+        "phone": "(859) 415-3879"
+      },
+      "bookingDetails": {
+        "hotelCode": "MROT",
+        "hotelName": "Octocore",
+        "checkinDate": "2023-09-02",
+        "checkoutDate": "2023-09-25",
+        "noRooms": 1,
+        "specialRequests": [
+          "Late check-out"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Hayden",
+        "lastName": "Strong",
+        "email_address": "haydenstrong@octocore.com",
+        "phone": "(906) 464-2747"
+      },
+      "bookingDetails": {
+        "hotelCode": "MROT",
+        "hotelName": "Elita",
+        "checkinDate": "2023-09-13",
+        "checkoutDate": "2023-09-17",
+        "noRooms": 2,
+        "specialRequests": [
+          "Early check-in"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Angela",
+        "lastName": "Knowles",
+        "email_address": "angelaknowles@elita.com",
+        "phone": "(830) 469-3941"
+      },
+      "bookingDetails": {
+        "hotelCode": "HTLN",
+        "hotelName": "Enersol",
+        "checkinDate": "2023-09-11",
+        "checkoutDate": "2023-09-26",
+        "noRooms": 2,
+        "specialRequests": [
+          "Late check-out"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Harris",
+        "lastName": "Gibbs",
+        "email_address": "harrisgibbs@enersol.com",
+        "phone": "(822) 578-2245"
+      },
+      "bookingDetails": {
+        "hotelCode": "CMFT",
+        "hotelName": "Comverges",
+        "checkinDate": "2023-09-10",
+        "checkoutDate": "2023-09-19",
+        "noRooms": 1,
+        "specialRequests": [
+          "Late check-out"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Sparks",
+        "lastName": "Rowland",
+        "email_address": "sparksrowland@comverges.com",
+        "phone": "(977) 541-2799"
+      },
+      "bookingDetails": {
+        "hotelCode": "CMFT",
+        "hotelName": "Honotron",
+        "checkinDate": "2023-09-12",
+        "checkoutDate": "2023-09-25",
+        "noRooms": 1,
+        "specialRequests": [
+          "Early check-in"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Newman",
+        "lastName": "Singleton",
+        "email_address": "newmansingleton@honotron.com",
+        "phone": "(970) 552-3580"
+      },
+      "bookingDetails": {
+        "hotelCode": "MROT",
+        "hotelName": "Exoblue",
+        "checkinDate": "2023-09-08",
+        "checkoutDate": "2023-09-18",
+        "noRooms": 3,
+        "specialRequests": [
+          "Late check-out"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Melba",
+        "lastName": "Chapman",
+        "email_address": "melbachapman@exoblue.com",
+        "phone": "(909) 563-2747"
+      },
+      "bookingDetails": {
+        "hotelCode": "MROT",
+        "hotelName": "Ziggles",
+        "checkinDate": "2023-09-12",
+        "checkoutDate": "2023-09-25",
+        "noRooms": 2,
+        "specialRequests": [
+          "Early check-in"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Gale",
+        "lastName": "May",
+        "email_address": "galemay@ziggles.com",
+        "phone": "(970) 461-3684"
+      },
+      "bookingDetails": {
+        "hotelCode": "HTLN",
+        "hotelName": "Lotron",
+        "checkinDate": "2023-09-02",
+        "checkoutDate": "2023-09-21",
+        "noRooms": 1,
+        "specialRequests": [
+          "Late check-out"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Lucile",
+        "lastName": "Henderson",
+        "email_address": "lucilehenderson@lotron.com",
+        "phone": "(868) 534-2268"
+      },
+      "bookingDetails": {
+        "hotelCode": "CMFT",
+        "hotelName": "Nixelt",
+        "checkinDate": "2023-09-08",
+        "checkoutDate": "2023-09-19",
+        "noRooms": 2,
+        "specialRequests": [
+          "Late check-out"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Elise",
+        "lastName": "Charles",
+        "email_address": "elisecharles@nixelt.com",
+        "phone": "(838) 530-2435"
+      },
+      "bookingDetails": {
+        "hotelCode": "CSAR",
+        "hotelName": "Pyramia",
+        "checkinDate": "2023-09-03",
+        "checkoutDate": "2023-09-16",
+        "noRooms": 1,
+        "specialRequests": [
+          "Late check-out"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Griffin",
+        "lastName": "Delacruz",
+        "email_address": "griffindelacruz@pyramia.com",
+        "phone": "(804) 457-3876"
+      },
+      "bookingDetails": {
+        "hotelCode": "CMFT",
+        "hotelName": "Hydrocom",
+        "checkinDate": "2023-09-05",
+        "checkoutDate": "2023-09-27",
+        "noRooms": 1,
+        "specialRequests": [
+          "Late check-out"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Valarie",
+        "lastName": "Willis",
+        "email_address": "valariewillis@hydrocom.com",
+        "phone": "(997) 406-3817"
+      },
+      "bookingDetails": {
+        "hotelCode": "MROT",
+        "hotelName": "Acruex",
+        "checkinDate": "2023-09-05",
+        "checkoutDate": "2023-09-15",
+        "noRooms": 3,
+        "specialRequests": [
+          "Early check-in"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Milagros",
+        "lastName": "Cobb",
+        "email_address": "milagroscobb@acruex.com",
+        "phone": "(868) 585-2900"
+      },
+      "bookingDetails": {
+        "hotelCode": "HTLN",
+        "hotelName": "Splinx",
+        "checkinDate": "2023-09-09",
+        "checkoutDate": "2023-09-24",
+        "noRooms": 2,
+        "specialRequests": [
+          "Late check-out"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Serena",
+        "lastName": "Leach",
+        "email_address": "serenaleach@splinx.com",
+        "phone": "(871) 558-2301"
+      },
+      "bookingDetails": {
+        "hotelCode": "CMFT",
+        "hotelName": "Updat",
+        "checkinDate": "2023-09-04",
+        "checkoutDate": "2023-09-16",
+        "noRooms": 3,
+        "specialRequests": [
+          "Late check-out"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Mattie",
+        "lastName": "Bradley",
+        "email_address": "mattiebradley@updat.com",
+        "phone": "(836) 422-2869"
+      },
+      "bookingDetails": {
+        "hotelCode": "MROT",
+        "hotelName": "Zytrex",
+        "checkinDate": "2023-09-06",
+        "checkoutDate": "2023-09-26",
+        "noRooms": 1,
+        "specialRequests": [
+          "Late check-out"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Chaney",
+        "lastName": "Whitehead",
+        "email_address": "chaneywhitehead@zytrex.com",
+        "phone": "(829) 459-2093"
+      },
+      "bookingDetails": {
+        "hotelCode": "HTLN",
+        "hotelName": "Fuelton",
+        "checkinDate": "2023-09-06",
+        "checkoutDate": "2023-09-26",
+        "noRooms": 1,
+        "specialRequests": [
+          "Early check-in"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Marguerite",
+        "lastName": "Dawson",
+        "email_address": "margueritedawson@fuelton.com",
+        "phone": "(883) 521-3525"
+      },
+      "bookingDetails": {
+        "hotelCode": "CMFT",
+        "hotelName": "Iplax",
+        "checkinDate": "2023-09-07",
+        "checkoutDate": "2023-09-18",
+        "noRooms": 2,
+        "specialRequests": [
+          "Late check-out"
+        ]
+      }
+    },
+    {
+      "guest": {
+        "firstName": "Bobbie",
+        "lastName": "Vazquez",
+        "email_address": "bobbievazquez@iplax.com",
+        "phone": "(953) 573-3404"
+      },
+      "bookingDetails": {
+        "hotelCode": "CSAR",
+        "hotelName": "Snowpoke",
+        "checkinDate": "2023-09-13",
+        "checkoutDate": "2023-09-21",
+        "noRooms": 2,
+        "specialRequests": [
+          "Late check-out"
+        ]
+      }
+    }
+  ]
+}
