@@ -1,10 +1,11 @@
 import ballerina/http;
+import ballerina/io;
 import ballerina/sql;
 import ballerinax/mysql;
 import ballerinax/mysql.driver as _;
-import ballerina/io;
 
 type Walkin record {|
+    string id?;
     string first_name;
     string last_name;
     string email;
@@ -19,7 +20,7 @@ type Walkin record {|
 
 configurable string host = "localhost";
 configurable string username = "root";
-configurable string password = "password123";
+configurable string password = "root";
 configurable string database = "reservations";
 configurable int port = 3306;
 
@@ -35,7 +36,7 @@ service /db on new http:Listener(8081) {
     resource function post reservations(Walkin[] walkinRecords) returns http:Created|error {
         // Create a batch parameterized query.
         sql:ParameterizedQuery[] insertQueries = from Walkin walkinRecord in walkinRecords
-        select `INSERT INTO walkins (first_name, last_name, email, phone, hotel_code, hotel_name, checkin_date, checkout_date, no_rooms, special_requests) 
+            select `INSERT INTO walkins (first_name, last_name, email, phone, hotel_code, hotel_name, checkin_date, checkout_date, no_rooms, special_requests) 
                 VALUES (${walkinRecord.first_name}, ${walkinRecord.last_name}, ${walkinRecord.email}, ${walkinRecord.phone}, ${walkinRecord.hotel_code}, ${walkinRecord.hotel_name}, ${walkinRecord.checkin_date}, ${walkinRecord.checkout_date}, ${walkinRecord.no_rooms}, ${walkinRecord.special_requests})`;
 
         // Insert records in a batch.
@@ -51,5 +52,18 @@ service /db on new http:Listener(8081) {
         };
     }
 
+   resource function get reservations() returns Walkin[]|error {
+        //TODO ad data range to retrive daily
+        Walkin[] walkins = [];
+        stream<Walkin, error?> resultStream = self.db->query(
+        `SELECT * FROM walkins`
+    );
+        check from Walkin employee in resultStream
+            do {
+                walkins.push(employee);
+            };
+        check resultStream.close();
+        return walkins;
+    }
 
 }
