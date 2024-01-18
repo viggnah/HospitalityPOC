@@ -31,6 +31,10 @@
             </payloadFactory>
             <property name="HTTP_SC" scope="axis2" type="STRING" value="500"/>
             <!-- <respond/> -->
+            <log level="full">
+                <property name="ERROR VALIDATION##########" value="#1-1"/>
+            </log>
+            <drop/>
         </on-fail>
     </validate>
     <log level="full">
