@@ -13,4 +13,7 @@
   <packaging>pom</packaging>
   <name>hopitalityIntegrationDemoConnectorExporter_module</name>
   <description>hopitalityIntegrationDemoConnectorExporter_module</description>
+  <modules>
+    <module>lib/kafkaTransport-connector-3.1.6</module>
+  </modules>
 </project>

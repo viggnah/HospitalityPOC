@@ -76,7 +76,7 @@
                 <property expression="json-eval($)" name="uri.var.resid" scope="default" type="STRING"/>
                 <call>
                     <endpoint>
-                        <http method="get" uri-template="$SYSTEM:RES_DB_BE">
+                        <http method="get" uri-template="$SYSTEM:RES_DB_BE/{uri.var.resid}">
                             <suspendOnFailure>
                                 <initialDuration>-1</initialDuration>
                                 <progressionFactor>-1</progressionFactor>
